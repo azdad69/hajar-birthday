@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <title>Joyeux anniversaire Hajar !</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div id="hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#">♡ Hajar's day</a>
+    <span class="date-label">A DAY MADE FOR YOU</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span>✦</span> A LITTLE CELEBRATION <span>✦</span></div>
+      <h1>Joyeux anniversaire<br><em>Hajar</em> !</h1>
+      <p class="intro">Aujourd'hui, le monde est un peu plus joli parce que c'est ton jour.</p>
+      <div class="hero-actions">
+        <button class="primary-btn" id="surpriseBtn">Ouvrir ta surprise <span>♡</span></button>
+        <a class="text-link" href="#message">Découvrir le message ↓</a>
+      </div>
+      <div class="cake-wrap" aria-label="Gâteau d'anniversaire">
+        <div class="sparkle s1">✦</div><div class="sparkle s2">✧</div>
+        <div class="cake">
+          <div class="candle"><i></i></div>
+          <div class="icing"></div>
+          <div class="cake-top"></div>
+          <div class="cake-middle"></div>
+          <div class="cake-bottom"></div>
+          <div class="plate"></div>
+        </div>
+        <span class="cake-caption">make a wish, Hajar ✨</span>
+      </div>
+      <div class="scroll-note">SCROLL POUR LA SURPRISE <span>↓</span></div>
+    </section>
+
+    <section class="message-section" id="message">
+      <div class="section-kicker">A NOTE FOR YOU</div>
+      <div class="message-card">
+        <div class="card-flower">✿</div>
+        <h2>Chère Hajar,</h2>
+        <p>En ce jour spécial, je te souhaite une année remplie de bonheur, de réussite, de beaux souvenirs et de petits moments qui font sourire.</p>
+        <p>Que tes rêves deviennent réalité et que chaque nouvelle journée t'apporte une belle raison d'être heureuse. Continue de briller à ta façon !</p>
+        <p class="signature">Avec plein de bonnes pensées <span>♡</span></p>
+      </div>
+    </section>
+    <section class="final-section">
+      <div class="final-heart">♡</div>
+      <h2>Keep shining, <em>Hajar</em>.</h2>
+      <p>Le meilleur reste à venir. Profite de ta journée !</p>
+      <button class="primary-btn" id="confettiBtn">Encore une surprise ! ✨</button>
+    </section>
+  </main>
+
+  <footer>Made with <span>♥</span> for Hajar · Happy Birthday</footer>
+
+  <div class="modal" id="surpriseModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close-btn" id="closeModal" aria-label="Fermer">×</button>
+      <div class="modal-icon">🎀</div>
+      <div class="section-kicker">JUST FOR YOU</div>
+      <h2 id="modalTitle">Surprise, Hajar !</h2>
+      <p>Tu mérites tout le bonheur du monde. Que cette nouvelle année soit encore plus belle que la précédente !</p>
+      <div class="modal-stars">✦　♡　✦</div>
+      <button class="primary-btn" id="modalConfetti">Célébrons !</button>
+    </div>
+  </div>
+</body>
+</html>
